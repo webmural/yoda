@@ -1,0 +1,33 @@
+::selection {
+  background: darkmagenta;
+  color: powderblue;
+}
+
+:any-link {
+  --resin: unset;
+  background: var(--resin);
+  box-shadow: 0 0 1ex 1ex thistle;
+  color: inherit;
+  transition: 333ms ease-out;
+}
+
+:nth-child(1n) { --resin: salmon }
+:nth-child(2n) { --resin: orange }
+:nth-child(3n) { --resin: hotpink }
+:only-child { --resin: orchid }
+
+:focus {
+  filter: hue-rotate(-36deg);
+  outline: .2ch double;
+}
+
+:active {
+  filter: hue-rotate(-18deg);
+}
+
+html {
+  background: violet;
+  background-image: linear-gradient(.3turn, #1ed 0%, transparent 38%, transparent 62%, coral);
+  color: #121113;
+  transition: 333ms ease-in;
+}

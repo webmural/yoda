@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg">
+  <title>gradient</title>
+  <style>
+    svg {
+      background: violet;
+      background-image: linear-gradient(.3turn, #1ed 0%, transparent 38%, transparent 62%, coral);
+    }
+  </style>
+</svg>
